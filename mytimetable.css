@@ -1,0 +1,71 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a{
+    color: #42b4d6;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 160%;
+    
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 0px;
+    font-size: 0.8rem;
+    width:auto;
+    align-self: center;
+    
+
+  }
+
+  th {
+    /*border: 1px solid rgb(190,190,190);*/
+    padding: 30px 50px;
+    border: 2px solid black;
+	background-color: chartreuse;
+  }
+
+  td {
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px 50px;
+    font-weight: bolder;
+    color: darkred;
+    font-style: normal;
+    font-size: larger;
+  }
+  td:hover {background-color: black;}
+
+  #DS{
+    background-color: purple;
+    font-weight: bolder;
+  }
+
+  caption {
+    padding: 10px;
+  }
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    background-image: url('images/DJI_0526.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  footer{
+    color: white;
+    background-color: black;
+  }
